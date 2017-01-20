@@ -1,0 +1,116 @@
+//-------------------------------------------------------------------------------
+// This file specifies which icons are going to show up on the lightboard at the 
+// beginning of the level if you need to add a new icon, you must add the actual 
+// icon to the end of the texture sheet AND add it to g_pszLightboardIcons in 
+// vgui_mp_lobby_screen
+//-------------------------------------------------------------------------------
+
+//	"cube_drop"	"1"
+//	"cube_button"	"1"
+//	"cube_bonk"	"1"
+//	"drink_water"	"1"
+//	"goop"		"1"
+//	"crushers"	"1"
+//	"laser_cube"	"1"
+//	"turret"	"1"
+//	"turret_burn"	"1"
+//	"portal_fling"	"1"
+//	"plate_fling"	"1"
+//	"bridges"	"1"
+//	"bridge_block"	"1"
+//	"grinders"	"1"
+//	"tbeams"	"1"
+//	"paint_bounce"	"1"
+//	"paint_speed"	"1"
+//	"handoff"	"1"
+//	"button_stand"	"1"
+
+
+"coop_lightboard_icons"
+{	
+	// These contain all 10 icons that show up
+	"Tracks"
+	{
+		"Track_1"
+		{
+			"goop" "1"	
+			"button_stand" "1"
+			"cube_button" "1"
+			"cube_bonk"	"1"
+			"handoff"	"1"
+			"turret" "1"
+			"turret_burn" "1"
+			"laser_cube" "1"
+			"crushers" "1"
+			"drink_water"	"1"
+		}
+		"Track_2"
+		{
+			"drink_water"	"1"
+			"cube_button"	"1"
+			"cube_bonk"	"1"
+			"portal_fling"	"1"
+			"plate_fling"	"1"
+			"handoff"	"1"
+			"button_stand" "1"
+			"laser_cube" "1"
+			"crushers"	"1"
+			"goop" "1"	
+		}
+		
+		"Track_3"
+		{
+			"cube_drop"	"1"
+			"cube_button"	"1"	
+			"cube_bonk"	"1"
+			"bridges"	"1"
+			"bridge_block"	"1"	
+			"handoff"	"1"
+			"turret"	"1"
+			"goop" "1"	
+			"plate_fling"	"1"		
+			"portal_fling"	"1"	
+		}
+		
+		"Track_4"
+		{
+			"portal_fling"	"1"	
+			"plate_fling"	"1"
+			"tbeams"	"1"
+			"button_stand" "1"
+			"cube_button"	"1"	
+			"laser_cube" "1"
+			"goop"		"1"
+			"grinders"	"1"
+			"crushers"	"1"
+			"turret"	"1"		
+		}
+		
+		"Track_5"
+		{
+			"portal_fling"	"1"
+			"cube_button"	"1"
+			"laser_cube"	"1"
+			"paint_bounce"	"1"
+			"paint_speed"	"1"
+			"bridges"	"1"
+			"tbeams"	"1"
+			"crushers"	"1"
+			"turret"	"1"
+			"goop"		"1"
+		}
+	}
+	
+	// In here, we just tell the board which of the 10 
+	// icons in this track should light up
+	"Maps"
+	{
+		"mp_coop_bowling"
+		{
+			"turret"		"1"
+			"cube_drop"		"1"
+			"portal_fling"	"1"
+		}
+	}
+}
+
