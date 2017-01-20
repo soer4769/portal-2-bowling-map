@@ -1,0 +1,18 @@
+LightmappedGeneric
+{
+	$basetexture	"soer_materials/bowling_previous_game"
+	$surfaceprop 	"glass"
+	$selfillum 	"1"
+	%keywords 	"portal, screen, bowling, ten-pin, pin, custom, soer4769"
+	%noportal	"1"
+
+	"Proxies" 
+	{
+		"ToggleTexture"
+		{
+			"toggleTextureVar" 		"$baseTexture"
+            		"toggleTextureFrameNumVar" 	"$frame"
+            		"toggleTextureShouldWrap" 	"0"
+		} 
+	} 
+}

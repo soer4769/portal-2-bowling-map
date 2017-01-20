@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	$basetexture	"soer_materials/bowling_lane_arrow"
+	$translucent 	"1"
+
+	%keywords 	"portal, screen, bowling, ten-pin, pin, custom, soer4769, arrow, lane"
+	%noportal	"1"
+
+	$decal		"1"
+}

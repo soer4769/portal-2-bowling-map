@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	$basetexture	"soer_materials/bowling_button_01"
+	$translucent 	"1"
+
+	%keywords 	"portal, screen, bowling, ten-pin, pin, custom, soer4769, button, signage"
+	%noportal	"1"
+}

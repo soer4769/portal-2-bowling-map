@@ -1,0 +1,18 @@
+LightmappedGeneric
+{
+	$basetexture	"soer_materials/bowling_achievements_signage_orange"
+	$surfaceprop 	"glass"
+	$translucent 	"1"
+	%keywords 	"portal, screen, bowling, ten-pin, pin, custom, soer4769, signage"
+	%noportal	"1"
+
+	"Proxies"
+	{
+		"ToggleTexture"
+		{
+			"toggleTextureVar" 		"$baseTexture"
+            		"toggleTextureFrameNumVar" 	"$frame"
+            		"toggleTextureShouldWrap" 	"0"
+		} 
+	} 
+}

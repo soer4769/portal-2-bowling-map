@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+	$basetexture	"soer_materials/bowling_logo"
+	$translucent 	"1"
+
+	%keywords 	"portal, screen, bowling, ten-pin, pin, custom, soer4769, logo"
+	%noportal	"1"
+
+	$decal		"1"
+	$decalscale	"0.10"
+}
