@@ -9,7 +9,7 @@ The files should be added to the following folders (create them if they do not e
 - "soer_instances" -> sdk_content\maps\
 - "soer_materials" -> portal2\materials\
 - "soer_scripts" -> portal2\scripts\vscripts\
-- "mp_coop_bowling.vmf, mp_coop_bowling.vmf, mp_coop_bowling.log, mp_coop_bowling.prt" -> sdk_content\maps\
+- "mp_coop_bowling.vmf, mp_coop_bowling.log, mp_coop_bowling.prt" -> sdk_content\maps\
 
 Download the playable BSP version of the map here with instructions included for how to set it up for play: 
 - http://soer4769.dk/files/downloads/mp_coop_bowling.zip
