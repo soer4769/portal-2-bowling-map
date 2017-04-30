@@ -89,6 +89,10 @@ polarity2whisper <- 0
 mp_coop_multifling_1cube <- 0
 summer_sale_cube_died <- false
 
+//ispaused()
+//IsPlayingBack()
+//EstimateLength()
+
 //debug stuff
 debug <- false	//Set true to enable debug block during think function
 debugInterval <- 10.00
@@ -113,11 +117,13 @@ pitchOverride <- null
 //State Flags
 stateSlowFieldTraining <- false
 
+
 //jailbreak specific stuff
 if (curMapName=="sp_sabotage_jailbreak_01" || curMapName=="sp_sabotage_jailbreak" || curMapName=="sp_a2_bts1")
 {
 	jailbreakpos <- 0
 }
+
 
 //sp_catapult_fling_sphere_peek specific stuff
 if (curMapName=="sp_a2_sphere_peek")
@@ -125,9 +131,12 @@ if (curMapName=="sp_a2_sphere_peek")
 	peekctr <- 0
 }
 
+
 //Dings
 sceneDingOn  <- CreateSceneEntity("scenes/npc/glados_manual/ding_on.vcd")
 sceneDingOff <- CreateSceneEntity("scenes/npc/glados_manual/ding_off.vcd")
+
+
 
 DoIncludeScript( "soer_scripts/choreo/glados_coop_scenetable_include", self.GetScriptScope() )
 DoIncludeScript( "soer_scripts/choreo/glados_coop_scenetable_include_manual", self.GetScriptScope() )
@@ -3164,6 +3173,12 @@ function GladosCoopMapStart(){
 	local curMapName = GetMapName()
 	switch (curMapName)
 	{
+		case "mp_coop_instance":
+			GladosPlayVcd(54)
+			break
+		case "mp_coop_under":
+			GladosPlayVcd(1175)
+			break
 		case "mp_coop_bowling":
 			GladosPlayVcd(1032)
 			break
@@ -3362,6 +3377,9 @@ function GladosCoopOpenExitDoor(player)
 	EntFire( "@relay_disable_exit", "Trigger", "", 0.0 )
 	switch (mapname)
 	{
+		case "mp_coop_instance":
+			GladosPlayVcd(1011)
+			break
 		case "mp_coop_bowling":
 			GladosPlayVcd(1050)
 			break
