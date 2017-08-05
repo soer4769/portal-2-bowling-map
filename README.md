@@ -14,4 +14,4 @@ The files should be added to the following folders (create them if they do not e
 Download the playable BSP version of the map here with instructions included for how to set it up for play: 
 - http://soer4769.dk/files/downloads/mp_coop_bowling.zip
 
-These files are allowed to be altered and used by everyone for their own projects as long as crediting to the creator and link to this Github page is within the maps's steam workshop page's description.
+These files are allowed to be altered and used by everyone for their own projects as long as crediting to the creator and link to this Github page is within the maps's steam workshop page's description or in a readme file if it is not uploaded to the steam workshop.
